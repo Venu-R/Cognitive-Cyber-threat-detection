@@ -9,9 +9,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 const char* ssid = "Realme 8";
 const char* password = "qwertyuiop";
-
-// Replace with your laptop’s IP
-const char* server = "http://10.79.169.112:5000/log";  
+const char* server = "http://10.68.44.112:5000/log";  
 
 void setup() {
   Serial.begin(115200);
@@ -43,5 +41,5 @@ void loop() {
 
     http.end();
   }
-  delay(5000); // every 5s
+  delay(5000); 
 }
