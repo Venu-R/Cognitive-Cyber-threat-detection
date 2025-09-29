@@ -1,0 +1,3 @@
+-> Should connect ground of Arduino uno,ESP12E,PIR sensor,and the pin(D5 of ESP12E)through a resistor(3.3Kohm) to common ground.
+-> VCC of pir(Right pin in PIR) to the 5v power supply of Arduino uno
+-> A resistor(2.2Kohm) from D5 pin of ESP12E to output of the PIR sensor
