@@ -1,4 +1,0 @@
--> Left pin in DHT22 is VCC,Right is Ground,Middle one is output
--> VCC of the DHT22 to the 3.3v of ESP12E
--> Ground of DHT22 to ground of ESP12E
--> Output of DHT22 to the D4 pin of ESP12E
