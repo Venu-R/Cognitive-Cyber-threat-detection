@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 
-CSV_FILE = "sensor_logs.csv"
+CSV_FILE = "weather_logs.csv"
 
 if not os.path.exists(CSV_FILE):
     with open(CSV_FILE, mode='w', newline='') as file:
