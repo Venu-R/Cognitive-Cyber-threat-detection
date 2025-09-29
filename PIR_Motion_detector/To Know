@@ -1,3 +1,4 @@
+After starting server check for the IP/Port where it is running then change the server ip and port accordingly in the ".ino" file then change the password and name of the wifi connecting to, then upload it to the ESP12E
 -> Right pin in PIR is VCC,Left is Ground,Middle is output
 -> Should connect ground of Arduino uno,ESP12E,PIR sensor,and the pin(D5 of ESP12E)through a resistor(3.3Kohm) to common ground.
 -> VCC of pir(Right pin in PIR) to the 5v power supply of Arduino uno
