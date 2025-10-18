@@ -7,7 +7,7 @@
 
 // DHT setup (as you requested)
 #define DHTPIN D4
-#define DHTTYPE DHT11
+#define DHTTYPE DHT22
 DHT dht(DHTPIN, DHTTYPE);
 
 // WiFi / Server
