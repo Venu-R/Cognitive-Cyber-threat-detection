@@ -24,7 +24,7 @@ def log_data():
 
         with open(CSV_FILE, mode='a', newline='') as file:
             writer = csv.writer(file)
-            writer.writerow([timestamp, humidity, temperature])
+            writer.writerow([timestamp, temparature, humidity])
 
         return jsonify({"status": "success", "timestamp": timestamp}), 200
 
