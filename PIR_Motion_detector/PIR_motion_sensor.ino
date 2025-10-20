@@ -7,7 +7,7 @@ const char* ssid     = "Realme 8";
 const char* password = "qwertyuiop";  
 
 // ====== Server ======
-const char* serverName = "http://10.68.44.112:5001/pir"; // Flask endpoint for PIR logs
+const char* serverName = "http://10.74.193.112:5001/pir"; // Flask endpoint for PIR logs
 
 // ====== PIR ======
 int pirPin = D5;       
@@ -15,7 +15,7 @@ int val = 0;
 
 // ====== Timing ======
 unsigned long lastSendTime = 0;
-const unsigned long sendInterval = 4000; // send every 1 second
+const unsigned long sendInterval = 2000; // send every 1 second
 
 void setup() {
   Serial.begin(115200);
