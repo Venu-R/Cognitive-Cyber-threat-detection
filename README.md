@@ -111,8 +111,8 @@ The dashboard displays live alerts, node statuses, and flagged anomalies across 
 ## Author
 
 **Venu R**
-BE in Information Science, Sir M Visvesvaraya Institute of Technology
-[GitHub](https://github.com/Venu-R) | rvenu730@gmail.com
+
+rvenu730@gmail.com
 
 ---
 
