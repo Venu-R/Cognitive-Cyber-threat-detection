@@ -16,8 +16,8 @@ Cognitive-Cyber-threat-detection/
 ├── PIR_Motion_detector/
 │   └── pir_sensor.ino
 ├── Web Dashboard/
-│   ├── static/
-│   └── templates/
+│   ├── frontend/
+│   └── backend/
 └── weather_station/
     └── weather_monitor.py
 ```
